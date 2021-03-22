@@ -1,3 +1,5 @@
+# Practical 1- Nguyen Quoc Minh Quan
+
 def main():
     # enter your algorithm here
     # the logic can be included in another method

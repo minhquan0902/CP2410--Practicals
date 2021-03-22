@@ -1,3 +1,5 @@
+# Practical 1- Nguyen Quoc Minh Quan
+
 def harmonic_gen(n):
     # enter your generator code here
 

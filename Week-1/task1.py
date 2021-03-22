@@ -1,3 +1,6 @@
+
+# Practical 1- Nguyen Quoc Minh Quan
+
 def is_multiple(n, m):
     # enter your algorithm here
     if n % m == 0:
