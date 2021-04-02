@@ -1,5 +1,6 @@
 # Practical 1- Nguyen Quoc Minh Quan
 
+
 def main():
     # enter your algorithm here
     # the logic can be included in another method
@@ -20,6 +21,9 @@ def main():
         return print("All the numbers are NOT different from each other")
 
 
-
 if __name__ == "__main__":
     main()
+
+
+
+

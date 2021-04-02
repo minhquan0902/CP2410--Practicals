@@ -1,5 +1,5 @@
-
 # Practical 1- Nguyen Quoc Minh Quan
+
 
 def is_multiple(n, m):
     # enter your algorithm here

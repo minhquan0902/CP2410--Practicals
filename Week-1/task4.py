@@ -1,5 +1,6 @@
 # Practical 1- Nguyen Quoc Minh Quan
 
+
 def harmonic_gen(n):
     # enter your generator code here
 
@@ -21,3 +22,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
