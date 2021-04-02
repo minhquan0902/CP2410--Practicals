@@ -7,6 +7,8 @@ Order from least to greatest
 2^10, 2^(logn), 3n+100logn, 4n, nlogn, 4nlogn+2n, n^2+10n, n^3, 2^n
 
 Explanation: 
+
+
 We have: 
 In the sequence bellow, if a function f (n) precedes a function g(n), we say that f (n) is asymptotically better than g(n). 1, lgn, n, nlgn, n^2, n^3, 2^n
 2^10 is constant value
@@ -23,16 +25,27 @@ N^3 is O(n^3)
 ## Task 2: 2. (R-3.2) The number of operations executed by algorithms A and B is 8 n log n and 2n^2 , respectively. Determine n0 such that A is better than B for n ≥ n0.
 
 Algorithm A: 8nlogn
+
 Algorithm B: 2n^2
 
+
+
 The graphs describing the behavior of these algorithms start out with A higher (slower) than B, and eventually cross. After the point where they cross, B is always higher than A. Therefore, we need to find the point where they cross, that is the value where:
+
  8nlogn = 2n^2. 
+ 
 Applying algebra, we get:
+
 8nlogn = 2n^2
+
 <=> 4nlogn=n^2
+
 <=> 4logn=n
+
 <=> 4 = n/logn
+
 Solve for n we have n=16 since 4 =16/log2(16) = 16/4 =4
+
 Thus n0 = 17, since for all n >= 17, A will be faster than B (at 16 they’re equal.)
 
 ## Task 3: (R-3.9) Show that if d(n) is O(f(n)), then a*d(n) is O(f(n)), for any constant a > 0.
