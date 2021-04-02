@@ -11,14 +11,32 @@ Explanation:
 
 We have: 
 In the sequence bellow, if a function f (n) precedes a function g(n), we say that f (n) is asymptotically better than g(n). 1, lgn, n, nlgn, n^2, n^3, 2^n
+
+
 2^10 is constant value
+
+
 2^(logn) is linear O(n) by the definition of log
+
+
 3n+100logn is O(n)
+
+
 4n is also O(n) and larger than 3n+100logn because the 4n term is larger than the 3n term
+
+
 nlogn is O(nlogn)
+
+
 4nlogn+2n is also O(nlogn) because the nlogn term dominates the 2n term
+
+
 N^2 +10n is O (n^2)
+
+
 N^3 is O(n^3) 
+
+
 2^n is O (2^n) – exponential
 
 
